@@ -34,7 +34,7 @@ metadata:
   name: amir
   namespace: amir-ns
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: amir
