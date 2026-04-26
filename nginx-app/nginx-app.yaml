@@ -19,15 +19,6 @@ data:
   APP_NAME: amir
   APP_ENV: production
 ---
-apiVersion: v1
-kind: Secret
-metadata:
-  name: amir-secret
-  namespace: amir-ns
-type: Opaque
-stringData:
-  APP_SECRET: change-me
----
 apiVersion: apps/v1
 kind: Deployment
 metadata:
